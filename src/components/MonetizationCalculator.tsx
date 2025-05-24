@@ -65,6 +65,9 @@ export default function MonetizationCalculator() {
           <p>💵 Revenue/hr: ₹{totalRevenuePerHour.toFixed(2)}</p>
           <p>👥 Users/hr Earn: ₹{totalUserEarningPerHour.toFixed(2)}</p>
           <p>🧾 You/hr Profit: ₹{totalOwnerProfitPerHour.toFixed(2)}</p>
+       <p>🧾 You/Day Profit: ₹{totalOwnerProfitPerHour *24}</p>
+        <p>🧾 You/Month Profit: ₹{totalOwnerProfitPerHour *24 *30 }</p>
+         <p>🧾 You/hr Profit: ₹{totalOwnerProfitPerHour * 24 *30 *12}</p> 
         </div>
       </div>
     </div>
